@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>301</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Выдача авто</string>
+   </property>
+   <widget class="QComboBox" name="Brand_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>77</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Class_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>42</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Бизнесс-класс</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Спортивные</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Внедорожники</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Электрокары</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="Issue_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выдать авто в прокат</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Clas_label">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>42</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Класс авто</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Brand_label">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>77</y>
+      <width>80</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Марка авто</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Period_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>112</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>24 часа</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>48 часов</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>72 часа</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7 дней</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14 дней</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="Period_label">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>112</y>
+      <width>54</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Период</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Number_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>150</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Number_label">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>150</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Payment_checkBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>210</y>
+      <width>191</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Подтвердить оплату</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>188</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>К оплате:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RentCostLabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>189</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>301</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Возврат авто</string>
+   </property>
+   <widget class="QPushButton" name="ReturnpushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>302</y>
+      <width>171</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вернуть авто</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>40</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номер</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ReturnNumbercomboBox">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>40</y>
+      <width>181</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>80</y>
+      <width>211</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Степень повреждений</string>
+    </property>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>120</y>
+       <width>201</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Тяжелые повреждения</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>90</y>
+       <width>201</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Средние повреждения</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>60</y>
+       <width>181</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Легкие повреждения</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>31</y>
+       <width>171</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Нет повтреждений</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>272</y>
+      <width>191</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Подтвердить оплату</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RentCostLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>249</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>248</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>К оплате:</string>
+    </property>
+   </widget>
+   <zorder>ReturnpushButton</zorder>
+   <zorder>label_5</zorder>
+   <zorder>ReturnNumbercomboBox</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>checkBox_2</zorder>
+   <zorder>label_6</zorder>
+   <zorder>RentCostLabel_2</zorder>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>130</y>
+     <width>461</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Все доступные авто</string>
+   </property>
+   <widget class="QTableWidget" name="AllCarstableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>441</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="ClientgroupBox">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>130</y>
+     <width>461</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>История клиента</string>
+   </property>
+   <widget class="QTableWidget" name="ClientHistorytableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>441</width>
+      <height>531</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>12</y>
+     <width>261</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Текущий клиент</string>
+   </property>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>36</y>
+      <width>231</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>73</y>
+      <width>231</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>-7</y>
+     <width>271</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/new/prefix1/mark.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Лабораторная работа №8</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Даниил Лукманов, группа 4134</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>21</y>
+     <width>282</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="RegistClientButton">
+      <property name="text">
+       <string>СОЗДАТЬ УЧЁТНУЮ ЗАПИСЬ КЛИЕНТУ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EntryClientButton">
+      <property name="text">
+       <string>ВОЙТИ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ExitClientButton">
+      <property name="text">
+       <string>ВЫЙТИ</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>groupBox_6</zorder>
+  <zorder>groupBox_4</zorder>
+  <zorder>groupBox_2</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>RegistClientButton</zorder>
+  <zorder>ClientgroupBox</zorder>
+  <zorder>ExitClientButton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
